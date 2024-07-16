@@ -155,3 +155,25 @@ create table DoiHangChiTiet (
     foreign key(MaHoaDonChiTiet) references HoaDonChiTiet(MaHoaDonChiTiet)
 );
 go
+insert into NhanVien (MaNV, MaTK, HoTen, GioiTinh, DiaChi, SoDienThoai, CCCD, NgayVaoLam, TrangThai, Anh) values
+('NV001', 'TK001', N'Tống Hồng Lan', 1, N'Ninh Bình', '0123456789', '123456789', '2022-01-01', 1, 'anh1.jpg'),
+('NV002', 'TK002', N'Phan Chí Kiên', 0, N'Lạng Sơn', '0964980203', '123456788', '2022-01-02', 1, 'anh2.jpg'),
+('NV003', 'TK003', N'Đỗ Lan Anh', 1, N'Hưng Yên', '0382132796', '123456787', '2022-01-03', 1, 'anh3.jpg'),
+('NV004', 'TK004', N'Đinh Trí Nhật Hùng', 0, N'Thái Bình', '0123456786', '123456786', '2022-01-04', 1, 'anh4.jpg'),
+('NV005', 'TK005', N'Nguyễn Thu Hiền', 1, N'Hưng Yên', '0355957972', '123456785', '2022-01-05', 1, 'anh5.jpg'),
+('NV006', 'TK006', N'Phùng Văn Hưng', 0, N'Vĩnh Phúc', '0325495477', '123456784', '2022-01-06', 1, 'anh6.jpg'),
+('NV007', 'TK007', N'Nguyễn Thành Nam', 0, N'Thái Bình', '0123456783', '123456783', '2022-01-07', 1, 'anh7.jpg'),
+('NV008', 'TK008', N'Nguyễn Minh Anh', 1, N'Hà Nội', '0868215840', '123456782', '2024-11-07', 1, 'anh8.jpg'),
+('NV009', 'TK009', N'Trần Thanh Thúy', 1, N'Hà Nội', '0966571078', '123456781', '2022-01-09', 1, 'anh9.jpg'),
+('NV010', 'TK010', N'Kiều Thị Mai', 0, N'Hải Phòng', '0123456780', '123456780', '2022-01-10', 1, 'anh10.jpg');
+insert into ChatLieu (MaChatLieu, TenChatLieu, TrangThai) values
+('CL001', N'Thun borip', 1),
+('CL002', N'Cotton', 1),
+('CL003', N'Borip tăm Hàn', 1),
+('CL004', N'Thun gân', 1),
+('CL005', N'Thun tăm', 1),
+('CL006', N'Bozip', 1),
+('CL007', N'Thun cotton', 1),
+('CL008', N'Thun', 1),
+('CL009', N'Bozip', 1),
+('CL010', N'Thun gân', 1);
